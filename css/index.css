@@ -1,0 +1,50 @@
+.note-list{
+	padding:1rem 1rem;
+	border-bottom:1px solid #eee;
+	cursor: pointer;
+}
+.note-list:hover{
+	background:#eee;
+}
+
+.works{
+	overflow:hidden;
+}
+.works-list{
+	width:33%;
+	float:left;
+	padding:1rem 1rem;
+}
+.works-box{
+	position:relative;
+	border-radius:1rem;
+}
+.works-bg{
+	width:100%;
+	height:100%;
+	position: absolute;
+	top:0;
+	left:0;
+    color: #fff;
+    text-align: center;
+	border-radius:1rem;
+}
+.works-list:first-child .works-bg{
+    background-color: #155799;
+}
+.works-list:nth-child(2) .works-bg{
+    background-color: #155799;
+    background-image: linear-gradient(120deg, #155799, #159957);
+}
+.works-list:last-child .works-bg{
+    background-color: #159957;
+}
+.works-title{
+	position: absolute;
+	top:50%;
+	left:0;
+	margin-top:-1rem;
+	z-index: 1;
+	text-align: center;
+	color:white;
+}
